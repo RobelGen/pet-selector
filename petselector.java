@@ -12,7 +12,6 @@ String name= scan.nextLine().toLowerCase();
 
 String color;
 String season;
-String name;
 String pet;
 
 color= "Enter your favorite color:" + "";
@@ -44,13 +43,14 @@ if ( season.equals("summer")  && !pet.equals ("Dog") && !pet.equals ("Panda") &&
 
     System.out.println("Your perfect pet is: Pony");}
 
-if ("aeiou".indexOf(name.substring(0, 1)==-1 && color.equals("blue") && !season.equals ("summer") && !season.equals ("fall"))
+if ("aeiou".indexOf(name.substring(0, 1))==-1 && color.equals("blue") && !season.equals ("summer") && !season.equals ("fall"))
     System.out.println("Your perfect pet is: Pony");}
     
 if ( !pet.equals("Pony") && !pet.equals("Porcupine") && !pet.equals("Dog") && !pet.equals("Girrafe") && !pet.equals("Ostrich") && !pet.equals("Alligator")) {  
     System.out.println("Your perfect pet is: rock");
 }
 
+}
 }
 
 
