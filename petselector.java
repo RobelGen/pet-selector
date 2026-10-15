@@ -28,20 +28,29 @@ if ( color.equals("blue") && season.equals("spring")) {
 
     System.out.println("Your perfect pet is: Ostrich");}
 
-if ( color.equals("green") && "aeiou".indexOf(name.substring(0, 1))==-1 && season.equals("winter") {
+if ( color.equals("green") && "aeiou".indexOf(name.substring(0, 1))==-1 && season.equals("winter")) {
 
     System.out.println("Your perfect pet is: Girrafe");}
 
-if ( color.equals("green")  && season.equals("winter") || season.equals ("summer") || season.equals ("spring") && pet.equals "Giraffe")==false{
+if ( color.equals("green")  && season.equals("winter") || season.equals ("summer") || season.equals ("spring") && !pet.equals ("Giraffe")){
 
-    System.out.println("Your perfect pet is: Girrafe");}
+    System.out.println("Your perfect pet is: Dog");}
 
+if ( color.equals("red")  && "aeiou".indexOf(name.substring(0, 1))==1){
 
-else {
-    System.out.println("Your perfect pet is: rock")
+    System.out.println("Your perfect pet is: Porcupine");}
+
+if ( season.equals("summer")  && !pet.equals ("Dog") && !pet.equals ("Panda") && !pet.equals ("Porcupine")){
+
+    System.out.println("Your perfect pet is: Pony");}
+
+if ("aeiou".indexOf(name.substring(0, 1)==-1 && color.equals("blue") && !season.equals ("summer") && !season.equals ("fall"))
+    System.out.println("Your perfect pet is: Pony");}
+    
+if ( !pet.equals("Pony") && !pet.equals("Porcupine") && !pet.equals("Dog") && !pet.equals("Girrafe") && !pet.equals("Ostrich") && !pet.equals("Alligator")) {  
+    System.out.println("Your perfect pet is: rock");
 }
 
-}
 }
 
 
